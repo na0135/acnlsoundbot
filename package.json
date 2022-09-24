@@ -1,0 +1,28 @@
+{
+  "name": "acnlsoundbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "acnlsound.js",
+  "scripts": {
+    "test": "acnlsound.js",
+    "start": "node ./acnlsound.js",
+    "develop": "NODE_ENV=develop node acnlsound.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/na0135/acnlsoundbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/na0135/acnlsoundbot/issues"
+  },
+  "homepage": "https://github.com/na0135/acnlsoundbot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "node": "^18.9.1",
+    "node-schedule": "^2.1.0",
+    "twit": "^2.2.11"
+  }
+}
